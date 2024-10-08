@@ -19,7 +19,7 @@ CREATE TABLE Employees (
     ETFNumber NVARCHAR(10),
     DateOfBirth DATE,
     Gender NVARCHAR(10) NOT NULL,
-	ActiveStatus BIT NOT NULL DEFAULT (1),
+    ActiveStatus BIT NOT NULL DEFAULT (1),
     DepartmentId INT NOT NULL,
 
     CONSTRAINT FK_Department FOREIGN KEY (DepartmentId) REFERENCES Departments(Id)
