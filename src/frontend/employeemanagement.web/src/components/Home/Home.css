@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #e6bfe842, #00f2fe12);
+}
+
+.content-wrapper {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.main-heading {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.action-button:hover {
+    transform: scale(1.05);
+}
